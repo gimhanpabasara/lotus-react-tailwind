@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+html, body, #root { 
+  height: 100%; 
+  font-family: 'Inter', sans-serif;
+    
+}
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+}
+
+/* subtle kenburns */
+@keyframes kenburns {
+  0% { transform: scale(1) translateY(0px); }
+  100% { transform: scale(1.06) translateY(-6px); }
+}
+.kenburns {
+  animation: kenburns 18s ease-in-out infinite alternate;
+}
