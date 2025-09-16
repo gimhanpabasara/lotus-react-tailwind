@@ -18,7 +18,7 @@ const ExploreButton = ({ onClick, text = "Explore" }) => {
   );
 };
 
-export default function App() {
+export default function RangeGrid() {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   // Sample product data

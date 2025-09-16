@@ -36,7 +36,7 @@ const LetsStartButton = ({ onClick, text = "LET'S START" }) => {
   );
 };
 
-export default function App() {
+export default function ModelCard() {
   const handleLetsStartClick = () => {
     // In a real application, this would navigate to the customization page
     console.log("Redirecting to customization page");

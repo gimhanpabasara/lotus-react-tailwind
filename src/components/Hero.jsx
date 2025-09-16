@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function App() {
+export default function Hero() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white">
       {/* Hero Section */}

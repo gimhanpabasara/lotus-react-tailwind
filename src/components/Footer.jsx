@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function App() {
+export default function Footer() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
 
