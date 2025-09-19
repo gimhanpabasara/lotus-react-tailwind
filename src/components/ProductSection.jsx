@@ -230,7 +230,7 @@ export default function CamperUI() {
           </div>
         </div>
       </div>
-    </section>
+      </section>
 
     </div>
   );
