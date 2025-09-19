@@ -2,7 +2,7 @@ import { useState } from "react";
 import GetQuoteButton from "./GetQuoteButton";
 import DownloadButton from "./DownloadButton";
 import SubmitButton from "./SubmitButton";
- import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
 export default function WarrantyInquiry() {
   const [formData, setFormData] = useState({

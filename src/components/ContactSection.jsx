@@ -1,4 +1,6 @@
 import { useState } from "react";
+import GetQuoteButton from "./GetQuoteButton";
+import DownloadButton from "./DownloadButton";
 
 // ✅ Reusable Send Button Component
 function SendButton({ onClick }) {
@@ -151,7 +153,51 @@ export default function ContactSection() {
         </div>
       </section>
       
-      
+      <section className="py-12 px-6 text-center">
+      {/* Heading */}
+      <h2 className="text-2xl font-bold mb-6 inline-block relative">
+        ENQUIRES
+        <span className="absolute left-0 bottom-[-6px] h-1 w-full bg-green-700 -skew-x-12"></span>
+      </h2>
+
+      {/* Grid Section */}
+      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mt-10">
+        
+        {/* Card 1 */}
+        <div className="text-left">
+          <img
+            src="https://via.placeholder.com/600x300"
+            alt="Get A Quote"
+            className="w-full h-60 object-cover"
+          />
+          <h3 className="text-xl font-semibold mt-4">Get A Quote</h3>
+          <p className="text-gray-600 mt-2">
+            Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis.
+          </p>
+          <div className="mt-4">
+            <GetQuoteButton />
+          </div>
+        </div>
+
+        {/* Card 2 */}
+        <div className="text-left">
+          <img
+            src="https://via.placeholder.com/600x300"
+            alt="Download Brochure"
+            className="w-full h-60 object-cover"
+          />
+          <h3 className="text-xl font-semibold mt-4">Download Brochure</h3>
+          <p className="text-gray-600 mt-2">
+            Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis.
+          </p>
+          <div className="mt-4">
+            <DownloadButton />
+          </div>
+        </div>
+      </div>
+    </section>
 
     </div>
   );
