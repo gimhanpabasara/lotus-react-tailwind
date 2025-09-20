@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^3.0.2",
     "class-variance-authority": "^0.7.1",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.16",
